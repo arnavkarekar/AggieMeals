@@ -1,5 +1,5 @@
 # AggieMeals
-A inovative meal prep app for students at Texas A&amp;M University trying to gain, loose, or maintain their weight at the Dining Halls.
+An innovative meal prep app for students at Texas A&amp;M University trying to gain, lose, or maintain their weight at the Dining Halls.
 
 # Welcome to your Expo app 👋
 
