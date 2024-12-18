@@ -7,15 +7,16 @@ const tintColorLight = '#500000'; // TAMU Maroon
 const tintColorDark = '#500000';
 
 export const Maroon = "#500000"
+export const BrightMaroon = "#770020"
 
 export const Colors = {
   light: {
     text: '#11181C',
-    background: '#fff',
+    background: '#ececec',
     tint: tintColorLight,
     icon: '#687076',
     tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    tabIconSelected: BrightMaroon,
   },
   dark: {
     text: '#ECEDEE',
