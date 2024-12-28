@@ -6,11 +6,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 
 export default function HomeHeader() {
-  const {width} = useWindowDimensions();
+  const {width, height} = useWindowDimensions();
   
   const styles = StyleSheet.create({
     header: {
-      flex: 1,
+      width: width,
+      height: height / 8,
       backgroundColor: Maroon
     },
     headerContent: {
