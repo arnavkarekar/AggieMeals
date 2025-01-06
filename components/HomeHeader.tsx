@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, SafeAreaView, StyleSheet, useWindowDimensions, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import HeaderBackground from './HeaderBackground';
 import { Maroon, BrightMaroon } from '@/constants/Colors';
 import { Ionicons } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
@@ -21,10 +21,7 @@ export default function HomeHeader() {
   });
 
   return (
-    <LinearGradient
-      colors={[Maroon, BrightMaroon]}
-      style = {styles.header}
-    >
+    <HeaderBackground>
       <SafeAreaView style = {styles.headerContent}>
         <View style = {{width: width / 5, alignItems: 'center', justifyContent: 'center'}}>
           <TouchableOpacity>
@@ -42,6 +39,6 @@ export default function HomeHeader() {
           </TouchableOpacity>
         </View>
       </SafeAreaView>
-    </LinearGradient>
+    </HeaderBackground>
   );
 }
