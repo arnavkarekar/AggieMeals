@@ -72,6 +72,10 @@ export default function Login() {
     }
   });
 
+  const signInWithGoogle = async () => {
+    router.replace("/(tabs)")
+  }
+
   return (
     <>
       <HeaderBackground>
@@ -104,7 +108,7 @@ export default function Login() {
         <Text style = {[styles.textColor, {fontWeight: 'bold', fontSize: 17, marginVertical: 10}]}>
           or
         </Text>
-        <TouchableOpacity style = {styles.googleButton} onPress = {() => router.replace("/(tabs)")}>
+        <TouchableOpacity style = {styles.googleButton} onPress = {signInWithGoogle}>
           <View style = {{flexDirection: 'row', alignItems: 'center'}}>
             <Image
               style = {styles.image}
